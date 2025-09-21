@@ -1,5 +1,8 @@
 # Automate the Boring Stuff - Projects
+
 My projects going through the book **Automate the Boring Stuff** from **Al Sweigart**.
+
+_Files named "interactiveShell.py" are files that are in the book intended for entry into interactive shell._
 
 ### [Chapter 2 - Flow control](https://github.com/dmernik4/Automate_boring_stuff/tree/main/Chapter%202-3)
 
@@ -15,4 +18,4 @@ My projects going through the book **Automate the Boring Stuff** from **Al Sweig
 
 ### [Chapter 8 - Input validation](https://github.com/dmernik4/Automate_boring_stuff/tree/main/Chapter-8)
 
-### [Chapter 9 - Reading and writing files]
+### [Chapter 9 - Reading and writing files](https://github.com/dmernik4/Automate_boring_stuff/tree/main/Chapter-9)
