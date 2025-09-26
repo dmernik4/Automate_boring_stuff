@@ -19,3 +19,5 @@ _Files named "interactiveShell.py" are files that are in the book intended for e
 ### [Chapter 8 - Input validation](https://github.com/dmernik4/Automate_boring_stuff/tree/main/Chapter-8)
 
 ### [Chapter 9 - Reading and writing files](https://github.com/dmernik4/Automate_boring_stuff/tree/main/Chapter-9)
+
+### [Chapter 10 - Organizing files](https://github.com/dmernik4/Automate_boring_stuff/tree/main/Chapter-10)
