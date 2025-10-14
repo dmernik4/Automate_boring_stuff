@@ -90,10 +90,53 @@ print(pElems[2].getText())
 
 ## Getting Data from an Element's Attributes
 
-
+"""
 soup = bs4.BeautifulSoup(open("example.html"), "html.parser")
 spanElem = soup.select("span")[0]
 print(str(spanElem))
 print(spanElem.get("id"))
 print(spanElem.get("some_nonexisting_addr") == None)
 print(spanElem.attrs)
+"""
+
+from selenium import webdriver
+
+"""
+browser = webdriver.Firefox()
+print(type(browser))
+browser.get("https://inventwithpython.com")
+"""
+
+from selenium.webdriver.common.by import By
+
+"""
+browser = webdriver.Firefox()
+browser.maximize_window()
+browser.get("https://inventwithpython.com")
+linkElem = browser.find_element(By.NAME, "Read Online for Free")
+# print(type(linkElem))
+linkElem.click()  # follows the "Read Online for Free" link
+"""
+
+"""
+browser = webdriver.Firefox()
+browser.get("https://login.metafilter.com")
+# userElem = browser.find_element_by_id("user_name")
+userElem = browser.find_element(By.ID, "user_name")
+userElem.send_keys("your_real_username_here")
+
+
+passwordElem = browser.find_element(By.ID, "user_pass")
+passwordElem.send_keys("your_real_password_here")
+passwordElem.submit()
+"""
+
+from selenium.webdriver.common.keys import Keys
+
+"""
+browser = webdriver.Firefox()
+browser.get("https://nostarch.com")
+htmlElem = browser.find_element(By.TAG_NAME, "html")
+htmlElem.send_keys(Keys.END)  # scrolls to bottom
+htmlElem.send_keys(Keys.HOME)  # scrolls to top
+"""
